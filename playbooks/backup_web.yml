@@ -1,0 +1,8 @@
+- name: "Backup-WEB"
+  hosts: all
+  vars: 
+    
+  gather_facts: "false"
+  tasks:
+  - name: '....Backup du Web-server .....'
+    script: /etc/ansible/scripts/backup-web.sh

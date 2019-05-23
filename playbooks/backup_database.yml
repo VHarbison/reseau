@@ -1,0 +1,8 @@
+- name: "Backup-Database"
+  hosts: all
+  vars: 
+    
+  gather_facts: "false"
+  tasks:
+  - name: '....Backup de la database .....'
+    script: /etc/ansible/scripts/backup-database.sh
